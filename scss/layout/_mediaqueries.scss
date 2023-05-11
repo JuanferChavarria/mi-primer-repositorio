@@ -1,0 +1,172 @@
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width:990px) {
+}
+
+
+@media only screen and (max-width:768px) {
+}
+
+
+@media only screen and (max-width:660px) {
+}
+
+
+@media only screen and (max-width:480px) {
+}
+
+
+
+@media (min-width: 720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+
+    #galeria-carrusel .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #galeria-carrusel .imagen-carrusel {
+        background-image: url(../multimedia/imagen.png);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px;
+    }
+
+    #galeria-carrusel .texto-carrusel {
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        display: flex;
+        padding-left: 30px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #galeria-carrusel h2 {
+        margin-top: 0;
+    }
+
+    #our-tours .all-cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    #our-tours p {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #our-tours .cards {
+        padding: 50px;
+
+    }
+
+    #our-tours h3 {
+        margin-top: 0;
+    }
+
+    #why-us {
+        background-image: url(../multimedia/imagen.png);
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+
+    }
+
+    #why-us .container {
+        text-align: initial;
+    }
+
+    #why-us ul {
+        margin-left: 100px;
+
+    }
+
+}
+
+
+/* PAGE 2 -- TOURS PAGE */
+
+/* PAGE 2 -- SECTION 1 - HEADER */
+
+#header h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#header p {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* PAGE 2 -- SECTION 2 - CAROUSEL */
+
+#carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* PAGE 2 -- SECTION 3 - TRAVEL PLAN */
+
+#travel-plan {
+    background-color: aliceblue;
+    border-style: double;
+}
+
+
+/* PAGE 2 - SECTION 4 END -TOUR */
+
+#end-tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 550px;
+    color: #000000;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../multimedia/imagen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#end-tour button {
+    font-size: 10px;
+}
+
+#end-tour h1 {
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+#end-tour .end-tour-texts {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+footer p {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+}
+
+footer .container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 12px;
+}
