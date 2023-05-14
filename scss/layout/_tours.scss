@@ -1,5 +1,56 @@
-
 /* end-tour alv*/
+
+
+.c-item {
+    height: 480px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+
+#our-tours-section .container {
+    padding: 0;
+}
+
+#our-tours-section {
+    background-color: #f7f7f7;
+    color: black;
+    text-align: left;
+    justify-content: center;
+    padding: 30px;
+}
+
+#travel-plan {
+    background-color: #f7f7f7;
+    color: black;
+    text-align: left;
+    justify-content: center;
+    padding: 0 30px 30px 30px;
+}
+
+
+li {
+    list-style-type: display;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
 
 #end-tour {
     display: flex;
@@ -10,11 +61,20 @@
     height: 756px;
     color: #ffffff;
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../multimedia/header.jpg");
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)), url("../multimedia/tours_img9.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
+}
+
+#end-tour .end-tour-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
 }
 
 #end-tour button {
@@ -34,10 +94,10 @@
 
 #end-tour h1 {
     padding: 0 10px;
-        font-size: 25px;
-        color: #ffffff;
-        font-weight: 500;
-        letter-spacing: .050em;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: .050em;
 }
 
 #end-tour h2 {
