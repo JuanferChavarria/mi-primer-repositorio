@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- LINK AL CSS-->
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- LINK AL FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,155 +58,67 @@
 
     <main>
 
-        <section class="location">
-            <H1>LOCATION</H1>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.522048315729!2d-75.5602690852303!3d6.326325395421651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429cc26b6daff%3A0xf7397834e4db1edd!2sParqueFabricato!5e0!3m2!1sen!2sco!4v1679683839242!5m2!1sen!2sco"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p>We have more people in charge of assisting you when we are not at home due to traveling around the world.
-                So you can get a quote for your trip through the website or, if you prefer, do it in our officines!</p>
+        <section id="location">
+            <h1>Location</h1>
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16231566.771072432!2d-79.9076014!3d72.2347048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ea20dbbe3c07715%3A0x34cf9d830114e218!2sGreenland!5e1!3m2!1sen!2sco!4v1684010098980!5m2!1sen!2sco"
+                    width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <p>As you can see, we are a little bit far, but no worries! we have a dedicated team that can assist you
+                using the channels below:</p>
         </section>
 
+
         <section id="social-media">
-            <h1>Or you can click on our social media below:</h1>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../multimedia/facebook-icon.png" alt="Card image cap">
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../multimedia/instagram-icon.png" alt="Card image cap">
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../multimedia/whatsapp-icon.png" alt="Card image cap">
+            <div class="container">
+                <h2>Our social media</h2>
+
+                <div class="all-cards">
+                    <div class="cards" style="background-image: url(../multimedia/facebook-icon.png)">
+                    </div>
+                    <div class="cards" style="background-image: url(../multimedia/instagram-icon.png)">
+                    </div>
+                    <div class="cards" style="background-image: url(../multimedia/whatsapp-icon.png)">
+                    </div>
                 </div>
             </div>
-        </Section>
+        </section>
 
 
         <!-- FORMULARIO-->
         <section>
-            <h5>Fill your information</h5>
-            <p>In this way we can contact you to advise you and give you all the information you require.</p>
+            <h5>You can also fill your information below</h5>
+            <p>In this way we can contact you to advise you and give you all the information required.</p>
 
-
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
+            <div class="container">
+                <div class="contact-box">
+                    <div class="right">
+                        <h2>Contact Us</h2>
+                        <input type="text" class="field" placeholder="Your Name">
+                        <input type="text" class="field" placeholder="Your Email">
+                        <input type="text" class="field" placeholder="Phone">
+                        <textarea placeholder="Message" class="field"></textarea>
+                        <button class="btn">Send</button>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
 
 
+            <!-- FOOTER -->
 
-            <form class="my-form">
-                <div class="container">
-                    <h1>Get in touch!</h1>
-                    <ul>
-                        <li>
-                            <select>
-                                <option selected disabled>-- Please choose an option --</option>
-                                <option>Request Quote</option>
-                                <option>Send Resume</option>
-                                <option>Other</option>
-                            </select>
-                        </li>
-                        <li>
-                            <div class="grid grid-2">
-                                <input type="text" placeholder="Name" required>
-                                <input type="text" placeholder="Surname" required>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="grid grid-2">
-                                <input type="email" placeholder="Email" required>
-                                <input type="tel" placeholder="Phone">
-                            </div>
-                        </li>
-                        <li>
-                            <textarea placeholder="Message"></textarea>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="terms">
-                            <label for="terms">I have read and agreed with <a href="">the terms and
-                                    conditions.</a></label>
-                        </li>
-                        <li>
-                            <div class="grid grid-3">
-                                <div class="required-msg">REQUIRED FIELDS</div>
-                                <button class="btn-grid" type="submit" disabled>
-                                    <span class="back">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg"
-                                            alt="">
-                                    </span>
-                                    <span class="front">SUBMIT</span>
-                                </button>
-                                <button class="btn-grid" type="reset" disabled>
-                                    <span class="back">
-                                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg"
-                                            alt="">
-                                    </span>
-                                    <span class="front">RESET</span>
-                                </button>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </form>
             <footer>
                 <div class="container">
-                    <small>Made with <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">George
-                            Martsoukos</a>
-                    </small>
+                    <p>&copy; Viaje a pie 2023</p>
                 </div>
             </footer>
 
 
-
-
-            <form action="">
-                <label for="">Name:</label>
-                <input type="text" placeholder="Your name">
-
-                <label for="">Email:</label>
-                <input type="email" placeholder="E-mail">
-
-                <label for="">Phone</label>
-                <input type="number" placeholder="Phone number">
-
-                <textarea name="" id="" cols="30" rows="10">Message</textarea>
-
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset form">
-            </form>
-        </section>
-    </main>
-
-    <!-- FOOTER -->
-
-    <footer>
-        <div class="container">
-            <p>&copy; Viaje a pie 2023</p>
-        </div>
-    </footer>
-
-
-    <!-- Conexión al boostrap end-of-page -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+            <!-- Conexión al boostrap end-of-page -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                crossorigin="anonymous"></script>
 
 </body>
 
