@@ -16,9 +16,14 @@
 }
 
 
-#our-tours-section .container {
+#our-tours-section .our-tours-container {
     padding: 0;
 }
+
+#our-tours-section h1{
+    text-align: center;
+}
+
 
 #our-tours-section {
     background-color: #f7f7f7;
@@ -38,11 +43,9 @@
 
 
 li {
-    list-style-type: display;
     padding: 3px;
+    list-style-type:lower-roman
 }
-
-
 
 
 #end-tour {
