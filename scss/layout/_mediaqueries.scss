@@ -13,6 +13,10 @@
         gap: 50px;
     }
 
+    /* PLACES */
+
+
+
 }
 
 
@@ -41,5 +45,17 @@
     .why-us-button {
         padding-top: 30px;
     }
+
+    /* PLACES */
+
+
+    #id-places-cards .places-cards {
+        display: grid;
+        grid-template-columns: 45% 45%; 
+        align-items: start;
+        justify-content: center;
+        justify-items: center;
+    }
+
 
 }
