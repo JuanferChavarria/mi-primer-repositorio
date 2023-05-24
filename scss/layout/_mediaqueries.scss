@@ -13,8 +13,29 @@
         gap: 50px;
     }
 
-    /* PLACES */
 
+    /* ABOUT */
+
+
+    .contenedor-parrafos {
+        padding: 0 125px;
+    }
+
+
+    #youtube-channel p {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .video-responsive iframe {
+        padding-top: 10px;
+        width: 70%;
+        height: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 
 }
@@ -51,11 +72,35 @@
 
     #id-places-cards .places-cards {
         display: grid;
-        grid-template-columns: 45% 45%; 
+        grid-template-columns: 45% 45%;
         align-items: start;
         justify-content: center;
         justify-items: center;
     }
 
+    /* ABOUT */
 
+    .contenedor-parrafos {
+        padding: 0 180px;
+    }
+
+    .our-team-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #youtube-channel p {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .video-responsive iframe {
+        width: 70%;
+        height: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
